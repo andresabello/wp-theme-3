@@ -1,0 +1,129 @@
+#ac-form{
+	position: relative;
+}
+#ac-form form{
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+}
+#ac-form form .widget-title{
+	color: #fff;
+}
+#ac-form form fieldset label{
+	display: block;
+	clear: both;
+	text-align: left;
+	font-size: 1em;
+}
+
+#ac-form form fieldset{
+	display: block;
+	clear: both;
+	text-align: left;
+	font-size: .75em;
+	margin-bottom: 10px;
+}
+
+#ac-form form select, #ac-form form input[type="text"], #ac-form form input[type="email"], #ac-form form select option{
+	margin-bottom: 10px;
+	height: 30px;
+	color: #333;
+	font-size: .8em;
+	text-align: left;
+	width: 100%;
+	border: 0;
+	padding: 0 !important;
+}
+#ac-form form label{
+	clear: both;
+	display: block;
+	font-size: .75em;
+	text-align: left;
+}
+#ac-form form #ac-submit{
+	background: red;
+	width: 100%;
+	margin-top: 10px;
+	font-style: .9em;
+	border: 0;
+	padding: 15px 25px;
+	color: #fff;
+        text-transform: uppercase;
+}
+#ac-form form #ac-submit:hover{
+	background: #222;
+}
+#ac-form form .info{
+	text-align: center;
+	font-size: .8em;
+	width: 100%;
+	margin-top: 20px;
+}
+#ac-form form .info a{
+	color: #9d9d9d;
+}
+#ac-form form textarea{
+	color: #333;
+	font-size: .8em;
+}
+/* style all input elements with a required attribute */
+input:required {
+  box-shadow: 1px 1px 5px rgba(200, 0, 0, 0.85);
+}
+
+/**
+ * style input elements that have a required
+ * attribute and a focus state
+ */
+
+input:required:focus {
+  border: 1px solid red;
+  outline: none;
+}
+
+
+/**
+ * style input elements that have a required
+ * attribute and a hover state
+ */
+input:required:hover {
+  opacity: 1;
+}
+
+/*Error Field box Styles*/
+#form-response{
+	background: #fff;
+	margin-top: 20px;
+	color: red;
+	text-align: left;
+}
+.error-input{
+	border: 1px solid red !important;
+}
+.errors{
+	color: red !important;
+	font-size: .8em !important;
+	background: #ffcccc !important;
+	padding: 10px;
+	text-sahdow: -1px -1px 1px #000;
+	text-align: left;
+}
+#total{
+	width: 50px !important;
+}
+.success-form h4{
+	color: #05a678;
+	margin-top: 100px;	
+}
+.success-form{
+	background: #fff;
+	color: #333;
+	height: 400px;
+	padding: 20px 5px;
+}
+input[name="interested"] {
+	display: none !important;
+}
+#ac-submit{
+	cursor: pointer;
+}
